@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="calculator.css">
+        <body>
+            <div id="body">
+                <input id="display" readonly>
+                <div id="mainbody">
+                    <button onclick="addinput('+')" class="orange">+</button>
+                    <button onclick="addinput('7')">7</button>
+                    <button onclick="addinput('8')">8</button>
+                    <button onclick="addinput('9')">9</button>
+                    <button onclick="addinput('-')" class="orange">-</button>
+                    <button onclick="addinput('4')">4</button>
+                    <button onclick="addinput('5')">5</button>
+                    <button onclick="addinput('6')">6</button>
+                    <button onclick="addinput('*')" class="orange">*</button>
+                    <button onclick="addinput('1')">1</button>
+                    <button onclick="addinput('2')">2</button>
+                    <button onclick="addinput('3')">3</button>
+                    <button onclick="addinput('/')" class="orange">/</button>
+                    <button onclick="addinput('0')">0</button>
+                    <button onclick="addinput('.')" >.</button>
+                    <button onclick="result()" >=</button>
+                    <button onclick="addinput('%')" class="orange">%</button>
+                    <button onclick="clearDisplay()" class="orange">C</button>
+                    
+                </div>
+            </div>
+            <script src="calculator.js">
+            </script>
+
+        </body>
+    </head>
+</html>
